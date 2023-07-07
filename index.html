@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>השייח</title>
+    <style>
+        body {
+            background-color: #999999;
+
+	  background-image: url("https://www.coffeesheikh.com/wp-content/uploads/2021/02/logolessyellow-1.png");
+
+        }
+
+	.glow {
+	  font-size: 180px;
+	  color: #8B4513;
+	  text-align: top;
+	  animation: glow 1s ease-in-out infinite alternate, mymove 5s infinite;
+	}
+
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #AC6735, 0 0 40px #AC6735, 0 0 50px #AC6735, 0 0 60px #AC6735, 0 0 70px #AC6735;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #AC6735, 0 0 40px #AC6735, 0 0 50px #AC6735, 0 0 60px #AC6735, 0 0 70px #AC6735, 0 0 80px #AC6735;
+  }
+}
+
+
+@keyframes mymove {
+  50% {font-size: 220px;}
+}
+
+
+        h1 {
+            color: #8B4513;
+            font-size: 48px;
+            text-align: center;
+            padding-top: 0px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .coffee-images {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            position: relative;
+            z-index: 0;
+
+        }
+
+        .coffee-images img {
+            width: 200px;
+            height: auto;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="glow">השייח</h1>
+    <div class="coffee-images">
+            <img src="https://media-cdn.tripadvisor.com/media/photo-s/0e/d7/95/a8/my-cappuccino-with-the.jpg" alt="תמונת קפה 1">
+            <img src="https://b.zmtcdn.com/data/reviews_photos/166/416f5665af80c595524f3b6cd783c166_1544939773.jpg" alt="תמונת קפה 2">
+            <img src="https://media-cdn.tripadvisor.com/media/photo-s/0f/63/9b/85/tub-of-butter.jpg" alt="תמונת קפה 3">
+    </div>
+</body>
+</html>
